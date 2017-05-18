@@ -20,6 +20,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet var tap: UITapGestureRecognizer!
 
+    @IBAction func tap(_ sender: UITapGestureRecognizer) {
+        print("tap")
+    }
+    @IBAction func rotation(_ sender: UIRotationGestureRecognizer) {
+        print("rotation")
+    }
+   
+    @IBAction func Swipe(_ sender: UISwipeGestureRecognizer) {
+        print("Swipe")
+    }
+   
+    @IBAction func pan(_ sender: UIPanGestureRecognizer) {
+        print("pan")
+    }
 }
 

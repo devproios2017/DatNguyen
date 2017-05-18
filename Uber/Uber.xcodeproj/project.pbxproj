@@ -12,6 +12,7 @@
 		4FEFC1881ECDC2FB00679598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEFC1861ECDC2FB00679598 /* Main.storyboard */; };
 		4FEFC18A1ECDC2FB00679598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEFC1891ECDC2FB00679598 /* Assets.xcassets */; };
 		4FEFC18D1ECDC2FC00679598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEFC18B1ECDC2FC00679598 /* LaunchScreen.storyboard */; };
+		4FEFC1951ECDDA3500679598 /* view1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFC1941ECDDA3500679598 /* view1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4FEFC1891ECDC2FB00679598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FEFC18C1ECDC2FC00679598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FEFC18E1ECDC2FC00679598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEFC1941ECDDA3500679598 /* view1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = view1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4FEFC1821ECDC2FB00679598 /* AppDelegate.swift */,
 				4FEFC1841ECDC2FB00679598 /* ViewController.swift */,
 				4FEFC1861ECDC2FB00679598 /* Main.storyboard */,
+				4FEFC1941ECDDA3500679598 /* view1ViewController.swift */,
 				4FEFC1891ECDC2FB00679598 /* Assets.xcassets */,
 				4FEFC18B1ECDC2FC00679598 /* LaunchScreen.storyboard */,
 				4FEFC18E1ECDC2FC00679598 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEFC1951ECDDA3500679598 /* view1ViewController.swift in Sources */,
 				4FEFC1851ECDC2FB00679598 /* ViewController.swift in Sources */,
 				4FEFC1831ECDC2FB00679598 /* AppDelegate.swift in Sources */,
 			);
